@@ -1,0 +1,240 @@
+/*entire document style info*/
+
+* {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif, bold;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+
+/*nav style*/
+
+#mainNav {
+    width: 100%;
+    border: none;    
+    background-color: #BFD0EA;
+    font-family: 'Playfair Display', serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#mainNav .navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+#mainNav .nav-item {
+    padding-right: 50px;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: 165%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #75787B;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    color: #75787B;
+}
+
+#mainNav .collapse navbar-collapse {
+    padding-right: 10px;
+}
+
+header.masthead {
+    width: 100%;
+    height: 50%;
+    padding-top: 15%;
+    padding-bottom: calc(10rem - 56px);
+    background-position: center center;
+    background-image: url(../assets/Portfolio/logo.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header.mastheadM {
+    padding-top: 300px;
+    background-position: center center;
+    background-image: url(../assets/Portfolio/logoM.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#portfolio {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0;
+}
+
+#portfolio .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 0;
+}
+
+#portfolio .col-6 {
+    padding: 0;
+}
+
+#about {
+    background-color: #BFD0EA;
+    padding: 5%;
+}
+
+#me {
+    float: right;
+    padding-left: 2%;
+}
+
+/*form*/
+#contact {
+    background-image: url(../assets/About/1.jpg);
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.form-group {
+    max-width: 80%;
+    padding-top: 2%;
+}
+
+.btn-primary {
+    background-color: #BFD0EA;
+}
+
+#footer {
+    background-color: #75787B;
+    color: white;
+    padding: 2%;
+}
+
+/*thanks*/
+#thanks {
+    color: #5E366E;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#submitted {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/*media queries*/
+    
+@media (max-width: 576px) {
+    /*type sizes*/
+    h1 {
+        font-size: 40px;
+    }
+    
+    h4 {
+        font-size: 25px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    
+    #contact {
+        padding: 10%;
+    }
+    
+    #footer {
+        font-size: 10px;
+    }
+} 
+
+@media (max-width: 768px) {
+    header.masthead {
+        display: none;
+    }
+    #me {
+        max-width: 250px;
+        float: right;
+    }
+    
+    #contact {
+        padding: 15%;
+    }
+    
+    #footer {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    header.mastheadM {
+        display: none;
+    }
+/*type sizes*/
+    h1 {
+        font-size: 55px;
+    }
+    
+    h4 {
+        font-size: 30px;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+}
+
+
+
