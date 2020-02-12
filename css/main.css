@@ -58,7 +58,8 @@ a:hover {
 }
 
 #mainNav .nav-item {
-    padding-right: 50px;
+    display: block;
+    margin: auto;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -85,22 +86,12 @@ a:hover {
 }
 
 header.masthead {
-    width: 100%;
-    height: 50%;
-    padding-top: 15%;
+    width: 100vw;
+    height: 30%;
+    padding-top: 10%;
     padding-bottom: calc(10rem - 56px);
-    background-position: center center;
-    background-image: url(../assets/Portfolio/logo.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-header.mastheadM {
-    padding-top: 300px;
-    background-position: center center;
-    background-image: url(../assets/Portfolio/logoM.jpg);
+    background-position: center;
+    background-image: url(../assets/masthead.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -138,7 +129,11 @@ header.mastheadM {
 
 /*form*/
 #contact {
-    background-image: url(../assets/About/1.jpg);
+    display: block;
+    margin: auto;
+    background-image: url(../assets/form.jpg);
+    background-size: cover;
+    background-position: 5% 20%;
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 5%;
@@ -160,19 +155,6 @@ header.mastheadM {
     color: white;
     padding: 2%;
 }
-
-/*thanks*/
-#thanks {
-    color: #5E366E;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#submitted {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 
 /*media queries*/
     
