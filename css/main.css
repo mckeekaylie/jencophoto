@@ -1,4 +1,4 @@
-/*entire document style info*/
+/* ENTIRE DOCUMENT */
 
 * {
   -webkit-box-sizing: content-box;
@@ -40,10 +40,9 @@ a:hover {
 }
 
 
-/*nav style*/
+/* NAV */
 
 #mainNav {
-    width: 100%;
     border: none;    
     background-color: #BFD0EA;
     font-family: 'Playfair Display', serif;
@@ -85,18 +84,22 @@ a:hover {
     padding-right: 10px;
 }
 
+/* HEADER */
+
 header.masthead {
     width: 100vw;
-    height: 30%;
-    padding-top: 10%;
-    padding-bottom: calc(10rem - 56px);
+    height: 25vh;
+    margin-top: 4em;
+    padding-top: 20%;
     background-position: center;
-    background-image: url(../assets/masthead.jpg);
+    background-image: url(../assets/header.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+/* PORTFOLIO */
 
 #portfolio {
     padding-top: 0;
@@ -117,38 +120,33 @@ header.masthead {
     padding: 0;
 }
 
+/* ABOUT */
+
 #about {
     background-color: #BFD0EA;
-    padding: 5%;
+    padding: 10%;
 }
 
-#me {
-    float: right;
-    padding-left: 2%;
-}
+/* CONTACT/FORM */
 
-/*form*/
 #contact {
-    display: block;
-    margin: auto;
     background-image: url(../assets/form.jpg);
     background-size: cover;
     background-position: 5% 20%;
-    padding-left: 30%;
-    padding-right: 30%;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
     color: white;
 }
 
-.form-group {
-    max-width: 80%;
-    padding-top: 2%;
+form {
+    padding-right: 5%;
 }
 
-.btn-primary {
-    background-color: #BFD0EA;
-}
+
+/* FOOTER */
 
 #footer {
     background-color: #75787B;
@@ -156,10 +154,10 @@ header.masthead {
     padding: 2%;
 }
 
-/*media queries*/
+/* MEDIA QUERIES */
     
 @media (max-width: 576px) {
-    /*type sizes*/
+    /* TYPE SIZES */
     h1 {
         font-size: 40px;
     }
@@ -169,12 +167,18 @@ header.masthead {
     }
     
     p {
-        font-size: 18px;
+        font-size: 16px;
     }
-    
-    
+
+    /* SECTION STYLING */
     #contact {
-        padding: 10%;
+        background-position: 17% 40%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    form {
+        padding-right: 10%;
     }
     
     #footer {
@@ -183,27 +187,12 @@ header.masthead {
 } 
 
 @media (max-width: 768px) {
-    header.masthead {
-        display: none;
-    }
-    #me {
-        max-width: 250px;
-        float: right;
-    }
-    
-    #contact {
-        padding: 15%;
-    }
-    
     #footer {
         font-size: 10px;
     }
 }
 
 @media (min-width: 992px) {
-    header.mastheadM {
-        display: none;
-    }
 /*type sizes*/
     h1 {
         font-size: 55px;
