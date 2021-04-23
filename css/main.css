@@ -42,7 +42,7 @@ a:hover {
 
 /* NAV */
 
-#mainNav {
+#mainNav, #boudieNav {
     border: none;    
     background-color: #BFD0EA;
     font-family: 'Playfair Display', serif;
@@ -207,5 +207,26 @@ form {
     }
 }
 
+/* BOUDIE PAGE */
+.boudieTextFeature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #dfdfdf;
+}
 
+.blackLink {
+    color: black!important;
+    text-decoration: underline;
+}
 
+.blackLink:hover {
+    color: black!important;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blackLink:visited {
+    color: black!important;
+    text-decoration: underline;
+}
