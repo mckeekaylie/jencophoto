@@ -124,34 +124,21 @@ header.masthead {
 
 #about {
     background-color: #BFD0EA;
-    padding: 10%;
+    padding: 40px;
 }
 
 /* CONTACT/FORM */
 
 #contact {
-    background-image: url(../assets/form.jpg);
-    background-size: cover;
-    background-position: 5% 20%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 30%;
-    padding-right: 30%;
+    background-color: #75787B;
+    padding: 40px;
     text-align: center;
     color: white;
 }
 
-form {
-    padding-right: 5%;
-}
-
-
 /* FOOTER */
-
 #footer {
-    background-color: #75787B;
-    color: white;
-    padding: 2%;
+    padding: 20px;
 }
 
 /* MEDIA QUERIES */
