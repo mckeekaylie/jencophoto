@@ -75,11 +75,6 @@ a:hover {
     color: #75787B;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-    color: #75787B;
-}
-
 #mainNav .collapse navbar-collapse {
     padding-right: 10px;
 }
@@ -87,9 +82,8 @@ a:hover {
 /* HEADER */
 
 header.masthead {
-    width: 100vw;
     height: 25vh;
-    margin-top: 4em;
+    margin-top: 3em;
     padding-top: 20%;
     background-position: center;
     background-image: url(../assets/header.png);
@@ -194,6 +188,13 @@ header.masthead {
     }
 }
 
+@media(min-width: 1200px) {
+    #about {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
 /* BOUDIE PAGE */
 .boudieTextFeature {
     padding-top: 40px;
@@ -216,4 +217,15 @@ header.masthead {
 .blackLink:visited {
     color: black!important;
     text-decoration: underline;
+}
+
+.review {
+    background-color: #BFD0EA;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 }
