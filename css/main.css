@@ -219,13 +219,30 @@ header.masthead {
     text-decoration: underline;
 }
 
-.review {
+.reviews {
     background-color: #BFD0EA;
     width: 100%;
+}
+
+.review {
+    max-width: 40vw;
+    height: 300px;
     padding: 40px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: auto;
     font-weight: 500;
+    font-size: 25px;
+}
+
+@media(min-width: 992px) {
+    .strongText {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .strongText {
+        padding: 15px;
+    }
 }
