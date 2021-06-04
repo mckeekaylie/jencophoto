@@ -197,8 +197,7 @@ header.masthead {
 
 /* BOUDIE PAGE */
 .boudieTextFeature {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px;
     background-color: #dfdfdf;
 }
 
@@ -219,25 +218,64 @@ header.masthead {
     text-decoration: underline;
 }
 
-.reviews {
+.reviewsRow {
     background-color: #BFD0EA;
     width: 100%;
+    margin: auto!important;
 }
 
 .review {
-    max-width: 40vw;
-    height: 300px;
-    padding: 40px;
     text-align: center;
-    display: block;
+    display: flex;
     margin: auto;
+    align-items: center;
     font-weight: 500;
-    font-size: 25px;
+}
+
+@media(min-width: 1200px) {
+    .review {
+        max-width: 50vw;
+        height: 400px;
+        font-size: 25px;
+    }
 }
 
 @media(min-width: 992px) {
     .strongText {
         padding: 20px;
+    }
+
+    .review {
+        padding: 15px 40px 15px 40px;
+        max-width: 60vw;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199.98px) {
+    .review {
+        font-size: 22px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .review {
+        font-size: 18px;
+        padding: 0px 20px 0px 20px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .review {
+        height: 400px;
+        max-width: 70vw;
+    }
+}
+
+@media(max-width: 575.98px) {
+    .review {
+        height: 600px;
     }
 }
 
