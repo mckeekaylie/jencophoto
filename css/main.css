@@ -127,15 +127,16 @@ header.masthead {
 /* CONTACT/FORM */
 
 #contact {
-    background-color: #e83d36;
+    background-image: url(../assets/watercolor.jpg);
     padding: 40px;
     text-align: center;
-    color: white;
 }
 
 /* FOOTER */
 #footer {
     padding: 20px;
+    background-color: #e5274c;
+    color: white;
 }
 
 /* MEDIA QUERIES */
@@ -221,7 +222,7 @@ header.masthead {
 }
 
 .reviewsRow {
-    background-color: #dfdfdf;
+    background-image: url(../assets/watercolor.jpg);
     width: 100%;
     margin: auto!important;
 }
